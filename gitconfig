@@ -1,0 +1,18 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[user]
+	name = Josef Dolezal
+	email = pepik.ml@gmail.com
+[alias]
+	ll = log --oneline --graph --all --decorate
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+[push]
+	default = simple
+[core]
+	editor = vim
+	excludesfile = /Users/josef/.gitignore_global
