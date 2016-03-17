@@ -18,19 +18,10 @@ Plugin 'mattn/emmet-vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'Valloric/YouCompleteMe'
-"Plugin 'airblade/vim-gitgutter'
 Plugin 'godlygeek/tabular'
 Plugin 'whatyouhide/vim-gotham'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'sirtaj/vim-openscad'
-"Plugin 'kchmck/vim-coffee-script'
-"Plugin 'nono/vim-handlebars'
-"Plugin 'w0ng/vim-hybrid'
-"Plugin 'jceb/vim-orgmode'
-"Plugin 'mustache/vim-mustache-handlebars'
-"Bundle 'tomorrow-theme'
-"Bundle 'vim-yardoc'
-"Bundle 'altercation/vim-colors-solarized'
-"Bundle 'vim-emblem'
 
 call vundle#end()
 
@@ -57,11 +48,9 @@ inoremap <C-s> <Esc>:w<CR>a
 
 " Normal mode mappings {{{
 nnoremap <C-s> :w<CR>
-nnoremap <leader>op :!open -a openscad --args %<CR>
 nnoremap <leader>ev :vs $MYVIMRC<CR>
 nnoremap <leader>m :NERDTreeToggle<CR>
 nnoremap <leader>gt :Git 
-nnoremap <leader>rg :!g++ -std=c++11 -Wall -Wextra -pedantic -o {CurrentFolder()}/main % <CR>
 nnoremap <leader>rr :!%{CurrentFolder()}/main
 nnoremap <leader>d :bd<CR> 
 nnoremap <leader>w :w<CR>
@@ -101,13 +90,10 @@ set list
 set listchars=tab:▸\ ,eol:¬,nbsp:⋅,trail:•
 set noswapfile
 set number
-set shell=/bin/bash
+set shell=/bin/zsh
 set showmatch
 set smartcase
-"set smartindent
-"set term=screen-256color
 set ts=2 sts=2 sw=2 expandtab
-"set novisualbell
 set winheight=999
 set winheight=5
 set winminheight=5
