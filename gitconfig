@@ -11,6 +11,8 @@
 	ci = commit
 	co = checkout
 	br = branch
+	ps = push
+	po = "!git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)"
 [push]
 	default = simple
 [core]
