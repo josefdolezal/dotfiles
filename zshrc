@@ -14,3 +14,6 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi
 
 source $ZSH/oh-my-zsh.sh
+
+# added by travis gem
+[ -f /Users/josef/.travis/travis.sh ] && source /Users/josef/.travis/travis.sh
