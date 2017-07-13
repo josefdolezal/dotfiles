@@ -1,4 +1,11 @@
 dotfiles:
   - .gitconfig
+  - .gitignore
   - .zshrc
-  - .vimrc
+
+install:
+  brew:
+    - swiftenv
+    - swiftlint
+    - swiftgen
+    - sourcery
