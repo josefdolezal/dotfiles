@@ -19,3 +19,6 @@
 [core]
 	editor = vim
 	excludesfile = /Users/josef/.gitignore_global
+
+[includeIf "gitdir:~/Developer/Git/ackee/"]
+    path = .gitconfig-ackee
