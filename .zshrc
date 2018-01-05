@@ -17,3 +17,8 @@ source $ZSH/oh-my-zsh.sh
 
 # added by travis gem
 [ -f /Users/josef/.travis/travis.sh ] && source /Users/josef/.travis/travis.sh
+
+# Aliases
+
+alias xcw='open *.xcworkspace'
+alias xcp='open *.xcodeproj'
