@@ -8,7 +8,7 @@ ZSH_THEME="agnoster"
 plugins=(git git-extras web-search brew osx sublime)
 
 # User configuration
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/josef/.local/bin"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
@@ -24,3 +24,4 @@ source $ZSH/oh-my-zsh.sh
 
 alias xcw='open *.xcworkspace'
 alias xcp='open *.xcodeproj'
+alias cat='bat'
