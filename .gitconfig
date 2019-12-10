@@ -17,6 +17,7 @@
 	po = "!git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)"
 	dw = diff
 	dc = diff --cached
+	sv = stash save
 [push]
 	default = simple
 [core]
